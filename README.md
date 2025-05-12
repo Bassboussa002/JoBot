@@ -1,10 +1,11 @@
-# JoBot
-JoBot – AI Career Advisor built as part of the AI for Education project at ESPRIT School of Engineering. This assistant helps students explore careers, develop skills, and plan their professional paths using intelligent recommendations.
-## AI Career Assistant for ESPRIT Students JoBot
+## **AI Career Assistant for ESPRIT Students JoBot**
 # Overview
 This project is an AI-powered career assistant chatbot built to support ESPRIT students in navigating their professional journeys. It provides intelligent guidance in CV review, job search, cover letter writing, and more. Leveraging a multi-agent system with an orchestrator, the assistant ensures personalized, context-aware interactions.
 
 It’s built with LangChain, Chainlit, and optionally integrates Groq for efficient inference, providing fast, cost-effective alternatives to proprietary APIs like OpenAI .
+
+# JoBot
+JoBot – AI Career Advisor built as part of the AI for Education project at ESPRIT School of Engineering. This assistant helps students explore careers, develop skills, and plan their professional paths using intelligent recommendations.
 
 # Features
 🧠 Multi-agent system: Specialized agents handle tasks like CV analysis, job suggestions, cover letter generation, etc.
@@ -86,5 +87,5 @@ Orchestrator: Routes to CVAgent
 ↓
 CVAgent: Analyzes uploaded CV and provides suggestions
 
-Credits
+# Credits
 Developed by the AI student team Neural Leaders at ESPRIT, as part of an initiative to modernize and personalize career guidance for students using AI.
