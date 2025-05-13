@@ -9,7 +9,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Initialize HuggingFace login
-login(token="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")
+login(token="your secret key")
 
 # Embeddings instance as a module-level variable
 _embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
@@ -22,7 +22,7 @@ _memory = ConversationBufferWindowMemory(
 )
 
 # Groq API key
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your secret key")
 
 def get_embeddings():
     """Get the pre-configured embeddings instance"""
